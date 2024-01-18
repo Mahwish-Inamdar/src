@@ -1,0 +1,37 @@
+/* Add your global styles here if needed */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; /* Adjust the height based on your preference */
+  background-image: url('https://as1.ftcdn.net/v2/jpg/01/04/48/44/1000_F_104484458_b9l4sS0gsUSG95kKV3afJMTABVxm4yIV.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Place the background behind the content */
+}
+
+
+
+/* index.css or App.css */
+
+/* Other styles... */
+

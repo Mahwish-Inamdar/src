@@ -1,0 +1,18 @@
+.forecast {
+    margin-bottom: 20px;
+  }
+  
+  .forecast h2 {
+    color: #333;
+  }
+  
+  .forecast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-item p {
+    margin: 5px 0;
+  }
+  
